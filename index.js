@@ -16,3 +16,10 @@ function inserirItem(nome_do_item, id) {
 
     document.getElementById('lista-ordenada').appendChild(nova_li); //Adcionando LI ao OL
 }
+
+
+// Lista de funcoes a serem executadas ao carregaar a pagina
+elementoOl();
+for (let i=0; i<5; i++){
+    inserirItem('item ' + i, 'id-' +i );
+}
